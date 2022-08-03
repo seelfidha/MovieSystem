@@ -1,0 +1,10 @@
+INSERT INTO film (id, name, description) VALUES (1, 'Star Wars: The Empire Strikes Back','Darth Vader is adamant about turning Luke Skywalker to the dark side.');
+INSERT INTO film (id, name, description) VALUES (2, 'The GodFather', 'Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael.');
+INSERT INTO actor (id, name, family_Name) VALUES (1, 'Ford','Harrisson');
+INSERT INTO actor (id, name, family_Name) VALUES (2, 'Alfred','Pacino');
+INSERT INTO actor (id, name, family_Name) VALUES (3, 'Robert',' De Niro');
+INSERT INTO actor (id, name, family_Name) VALUES (4, 'Marlon',' Brando');
+INSERT INTO film_actor (actor_id, film_id) VALUES (1,1);
+INSERT INTO film_actor (actor_id, film_id) VALUES (2,2);
+INSERT INTO film_actor (actor_id, film_id) VALUES (3,2);
+INSERT INTO film_actor (actor_id, film_id) VALUES (4,2);
